@@ -68,35 +68,15 @@ After stopping the experiment, the "Print Results" button will be enabled to sav
 ## 🔢 Control Parameters (Example Values)
 The following gains were calculated and tested for the test bench model, serving as a starting point for the experiments:
 
-Parameter
+Parameter   |    Description       | Suggested Value
 
-Description
+K           | State Regulator Gain | 50.4975
 
-Suggested Value
+Ke          | State Observer Gain  | 9.9948
 
-K
+Nx          | State Scaling Factor | 1.0
 
-State Regulator Gain
-
-50.4975
-
-Ke
-
-State Observer Gain
-
-9.9948
-
-Nx
-
-State Scaling Factor
-
-1.0
-
-Nu
-
-Input Scaling Factor
-
-0.264
+Nu          | Input Scaling Factor | 0.264
 
 ## 🛠️ Technologies Used
 ### Hardware:
